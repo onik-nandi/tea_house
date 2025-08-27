@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div
+      class="parent-div min-h-[200px] max-w-[1140px] mx-auto flex flex-col md:flex-row ">
+      <div class="left-div pt-[65px] ">
+        <h1 class="text-[78px] leading-[100px] font-extrabold">
+          It's good <br />
+          tea time at The <br>Tea House
+        </h1>
+        <p class="text-[18px] my-[10px] pl-[5px] text-neutral-500">
+          Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+          Taste Buds.
+        </p>
+        <button class=" bg-red-500 text-[20px] button py-[10px] px-[30px] rounded-[10px] ml-[10px] text-white flex"  >Explore More <img src="./images/arrow.png" alt="" class="w-[24px] h-[24px] mt-[5px] ml-[10px]"></button>
+      </div>
+      <div class="right-div pt-[150px] relative">
+        <img src="./images/banner.png" alt="banner img" />
+        <div class="floating-div bg-white  max-w-[300px] h-[100px] flex items-center justify-center rounded-[10px] absolute bottom-[20px] left-[40px] shadow-md">
+          <div class="img">
+            <i class="fa-solid fa-star text-amber-400 text-[48px] pt-[10px] pl-[25px]"></i>
+          </div>
+          <div class="content  pl-[30px] pr-[30px]">
+            <h2 class="font-extrabold text-[30px]">5.00</h2>
+            <p class="font-semibold text-[16px] text-neutral-500">Trust Pilot Ratings</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
